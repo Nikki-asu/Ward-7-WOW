@@ -1,0 +1,18 @@
+# generated outputs - run generate_ward7_wow.py to produce these locally
+ward7_wow_outputs/
+
+# raw data - too large to commit, supply your own SR csvs
+data/
+*.csv
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# os
+.DS_Store
+Thumbs.db
