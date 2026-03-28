@@ -37,7 +37,7 @@ All key parameters are defined at the top of `generate_ward7_wow.py`:
 
 | Variable | Default | Description |
 |---|---|---|
-| `DATA_DIR` | `C:\Users\nikki\...\data` | Path to folder containing SR CSVs |
+| `DATA_DIR` | `` | Path to folder containing SR CSVs |
 | `FULL_YEARS` | 2018–2025 | Years included in main analysis |
 | `BASELINE_YEARS` | 2018–2024 | Historical baseline window |
 | `RECENT_YEARS` | 2025 | Recent period for annual signal detection |
@@ -53,7 +53,7 @@ To run for a different ward, change `TARGET_WARD_NUM = "07"` — the regex filte
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ```bash
 # 1. Activate your environment
